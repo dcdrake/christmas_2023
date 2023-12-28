@@ -1,4 +1,3 @@
-import {createRouter} from 'vue-router'
 import App from './App.vue';
 import PageOne from './PageOne.vue';
 import PageTwo from './PageTwo.vue';
@@ -29,9 +28,4 @@ const routes = [
   }
 ]
 
-export default function (history) {
-  return createRouter({
-    history,
-    routes
-  })
-}
+export default routes;
