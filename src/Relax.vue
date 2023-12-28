@@ -6,15 +6,14 @@ const router = useRouter();
 </script>
 
 <template>
-    <div class="flex flex-row w-full h-screen justify-evenly items-center">
+    <div class="flex lg:flex-row flex-col w-full h-screen justify-evenly items-center">
         <div class="flex items-center">
             <span class="text-8xl">&#x1F9DE; </span>
             <span class="text-slate-600 text-2xl">What a nice time!</span>
         </div>
 
-
-        <div class="flex flex-col items-center space-y-2">
-            <span class="text-slate-700 text-3xl">Good for 1 massage, followed by brunch</span>
+        <div class="flex flex-col items-center text-center space-y-2">
+            <span class="text-slate-700 text-3xl">Good for 1 massage (by a pro, no BS) => then brunch</span>
             <div class="flex space-x-2 text-5xl pb-10">
                 <span>💆‍♀️</span>
                 <span>🍳</span>
@@ -27,7 +26,6 @@ const router = useRouter();
                 </div>
             </button>
         </div>
-
     </div>
 </template>
 
