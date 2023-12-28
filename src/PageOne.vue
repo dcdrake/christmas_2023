@@ -8,8 +8,8 @@ const router = useRouter();
 
 <template>
     <div class="flex flex-row w-full h-screen justify-evenly items-center">
-        <div class="flex flex-col space-y-5">
-            <span class="text-5xl text-slate-700">Open Present &#x1F436;</span>
+        <div class="flex flex-col space-y-8">
+            <span class="text-5xl text-slate-700">Open present &#x1F436;</span>
             <button class="border border-blue-600 rounded-xl p-2 bg-blue-600 text-slate-50 text-lg hover:bg-blue-500"
                 @click="router.push({ path: 'page-two' })">
                 <div class="flex flex-row justify-center space-x-2 items-center">

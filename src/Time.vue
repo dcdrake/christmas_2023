@@ -6,14 +6,14 @@ const router = useRouter();
 </script>
 
 <template>
-    <div class="flex flex-row w-full h-screen justify-evenly items-center">
+    <div class="flex lg:flex-row flex-col w-full h-screen justify-evenly items-center">
         <div class="flex items-center">
             <span class="text-8xl">&#x1F9DE; </span>
             <span class="text-slate-600 text-2xl">Excellent choice!</span>
         </div>
 
 
-        <div class="flex flex-col items-center space-y-2">
+        <div class="flex flex-col items-center space-y-2 text-center">
             <span class="text-slate-700 text-3xl">Good for 5 Frankie morning transports to Springfield</span>
             <ul class="pb-10">
                 <li v-for="index in 5" :key="index">

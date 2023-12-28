@@ -7,7 +7,7 @@ const router = useRouter();
 </script>
 
 <template>
-    <div class="flex flex-row w-full h-screen justify-evenly items-center">
+    <div class="flex lg:flex-row flex-col w-full h-screen justify-evenly items-center">
         <button class="border border-blue-600 rounded-2xl p-3 bg-blue-600 text-slate-50 text-3xl"
             @click="router.push({ path: '/time' })">
             <div class="flex flex-row justify-center space-x-2 items-center">
